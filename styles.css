@@ -1,0 +1,58 @@
+:root {
+    --background-color: #866407;
+    --app-color: #644A05;
+    --font-color: #e2f8fe;
+    --font-size: 22px;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: Cambria;
+}
+
+main {
+    max-width: 480px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+#rnc-form {
+    text-align: center;
+}
+
+#output {
+    text-align: center;
+    font-size: 28px;
+    padding: 8px 0px 24px 0px;
+}
+
+#convert-btn {
+    font-size: var(--font-size);
+    padding: 8px;
+}
+
+#number {
+    font-size: var(--font-size);
+    width: 70%;
+    padding: 8px;
+}
+
+#instructions {   
+    background-color: var(--app-color);
+}
+
+#instructions-title {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#instructions-text {
+    text-align: center;
+    padding: var(--font-size);
+}
